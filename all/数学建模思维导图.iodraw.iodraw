@@ -1,0 +1,13 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="qw323CfJj58hswqPSGiM">
+    <mxGraphModel dx="786" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aj_S4T72r_UCo4hQhwyI-1" value="flowchart TD&#xa;    A[展位优化方案] --&gt; B[问题一：企业筛选]&#xa;    A --&gt; C[问题二：展位分配]&#xa;    &#xa;    B --&gt; D[数据预处理]&#xa;    D --&gt; E[信息熵法确定权重]&#xa;    E --&gt; F[TOPSIS方法计算综合得分]&#xa;    F --&gt; G[选出排名前七的企业]&#xa;    &#xa;    C --&gt; H[穷举法确定展位布局]&#xa;    H --&gt; I[数据整数化]&#xa;    I --&gt; J[构建混合整数规划模型]&#xa;    J --&gt; K[求解得出最优分配方案]&#xa;&#xa;&#xa;    style A fill:#2e7d32,color:white,stroke-width:0px&#xa;    style B fill:#4caf50,color:white&#xa;    style C fill:#4caf50,color:white&#xa;    style L fill:#795548,color:white" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="390" height="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
